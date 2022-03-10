@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * mail
+ * main - entery point
  *
- * header
+ * Return: 0 after printing the function
  */
 
 int main(void)
