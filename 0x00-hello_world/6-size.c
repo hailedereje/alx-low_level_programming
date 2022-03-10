@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - entery point 
- *size 
- * Return: return 1 after the program ecution
+ *
+ * Return: 0 after the program excution
  */
 int main(void)
 {
