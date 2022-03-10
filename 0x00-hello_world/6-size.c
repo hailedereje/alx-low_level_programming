@@ -2,7 +2,7 @@
 /**
  * main - entery point 
  *
- * Return: 0 after the program excution
+ * Return: 0 after the function
  */
 int main(void)
 {
