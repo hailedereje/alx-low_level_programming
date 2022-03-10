@@ -1,6 +1,8 @@
 #include <stdio.h>
-/*
- * hello
+/**
+ * mail
+ *
+ * header
  */
 
 int main(void)
