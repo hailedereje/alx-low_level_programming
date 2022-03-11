@@ -21,13 +21,14 @@ int main(void)
 			for (k = 0; k <=9; k++){
 				for (l = 0; l <=9; l++)
 				{
-					putchar(x+k);
-					putchar(x+l);
-					if (k != 9 || l != 9)
-					{
-						putchar(44);
-					}
+					putchar(x + k);
+					putchar(x + l);
+					
 				}
+			}
+			if (k != 9 || l != 9)
+			{
+				putchar(44);
 			}
 
 			
