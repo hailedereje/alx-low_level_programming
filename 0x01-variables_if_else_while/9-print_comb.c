@@ -8,14 +8,15 @@ int main(void)
 {
 	int i = 0, x = 48;
 
-	for(i = 0; i <=9; i++)
+	for (i = 0; i <= 9; i++)
 	{
 		putchar(x + i);
 		if (i < 9)
 		{
 			putchar(44);
+			putchar(32);
 		}
-		putchar(32);
 	}
+	putchar(10);
 	return (0);
 }
