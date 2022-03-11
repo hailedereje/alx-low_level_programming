@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include <time.h>
+#include <time.h> 
 #include <stdio.h>
 /**
  * main - entery point
@@ -9,10 +9,10 @@
 int main(void)
 {
 	int n;
+	int y, x = n % 10;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	int y, x = n % 10;
 	if (x > 0)
 		y = x;
 	else
