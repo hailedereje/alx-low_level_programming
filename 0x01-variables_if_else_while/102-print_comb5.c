@@ -23,13 +23,11 @@ int main(void)
 				{
 					putchar(x + k);
 					putchar(x + l);
+					putchar(44);
 					
 				}
 			}
-			if (k != 9 || l != 9)
-			{
-				putchar(44);
-			}
+			
 
 			
 		}
