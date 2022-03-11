@@ -4,7 +4,7 @@
 /**
  * main - entery point
  *
- * return: 0 after the excution of the function
+ * Return: 0 after the excution of the function
  */
 int main(void)
 {
@@ -14,16 +14,11 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	x = n % 10;
-	if (x > 0)
-		y = x;
+	if (x > 5)
+		printf("Last digit of %d is %d and is greater than 5\n", n, x);
+	else if (x == 0)
+		printf("Last digit of %d is %d and is 0\n", n, x);
 	else
-		y = -1 * x;
-	if (y > 5)
-		printf("Last digit of %d is %d and is greater than 5\n", n, y);
-	else if (y == 0)
-		printf("Last digit of %d is %d and is 0\n", n, y);
-	else
-		 printf("Last digit of %d is %d and is less than and not 0", n, y);
-
+		 printf("Last digit of %d is %d and is less than and not 0", n, x);
 	return (0);
 }
