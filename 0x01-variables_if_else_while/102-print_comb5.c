@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int i = 0, x = 48, j = 0;
+	int i = 0, x = 48, j = 0, l, k;
 
 	for (i = 0; i <= 9; i++)
 	{
@@ -18,7 +18,16 @@ int main(void)
 			{
 				putchar(32);
 			}
+			for (k = 0; k <= 9; k++){
+				for (l = 0; l <= 9; l++){
+					putchar(x + k);
+					putchar(x + l);
+					putchar(44);
+					putchar(32);
+				}
+			}
 		}
+
 	}
 	putchar(10);
 	return (0);
