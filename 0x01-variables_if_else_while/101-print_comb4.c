@@ -16,7 +16,7 @@ int main(void)
 				
 				putchar(x + i);
 				putchar(x + j);
-				putchar(x + y)
+				putchar(x + y);
 				if (i != 7 || j != 8 || y != 9)
 				{
 					putchar(44);
