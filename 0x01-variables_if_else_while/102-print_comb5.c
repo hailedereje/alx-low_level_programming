@@ -12,15 +12,21 @@ int main(void)
 	{
 		for (j = 0; j <= 8; j++)
 		{
-			for (k = 0; k <= 9; k++){
-				for (l = 0; l <= 9; l++){
+			for (k = 0; k <= 9; k++)
+			{
+				for (l = 0; l <= 9; l++)
+				{
 					putchar(x + i);
 					putchar(x + j);
 					putchar(32);
 					putchar(x + k);
 					putchar(x + l);
-        				putchar(44);
-                                        putchar(32);
+					if (i != 9 || j != 8)
+					{
+						
+        					putchar(44);
+                                        	putchar(32);
+					}
 
 					
 				}
