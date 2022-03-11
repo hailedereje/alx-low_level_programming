@@ -12,5 +12,6 @@ int main(void)
 	{
 		putchar(x + i);
 	}
+	putchar(10);
 	return (0);
 }
