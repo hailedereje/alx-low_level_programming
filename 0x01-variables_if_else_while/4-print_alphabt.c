@@ -9,8 +9,9 @@ int main(void)
 	int i, m, x = 97;
 	char z;
 
-	for (i = 0; i <= 25; i++){
-		m = x+i;
+	for (i = 0; i <= 25; i++)
+	{
+		m = x + i;
 		z = (char)m;
 		if (z != 'q' && z != 'e')
 		{
