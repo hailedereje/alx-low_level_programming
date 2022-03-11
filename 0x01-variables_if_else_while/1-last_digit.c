@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include <time.h> 
+#include <time.h>
 #include <stdio.h>
 /**
  * main - entery point
@@ -18,6 +18,6 @@ int main(void)
 	else if (x == 0)
 		printf("Last digit of %d is %d and is 0\n", n, x);
 	else
-		 printf("Last digit of %d is %d and is less than and not 0", n, x);
+		 printf("Last digit of %d is %d and is 6 less than and not 0\n", n, x);
 	return (0);
 }
