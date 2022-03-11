@@ -6,14 +6,16 @@
  */
 int main(void)
 {
-	int i, x = 48;
+	int i = 0, x = 48;
 
-	for (i = 0; i <= 8; i++)
+	for(i = 0; i <=9; i++)
 	{
 		putchar(x + i);
-		putchar(44);
-		putchar(32);
+		if (i < 9)
+		{
+			putchar(44);
+			putchar(32);
+		}
 	}
-	putchar(57);
 	return (0);
 }
