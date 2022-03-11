@@ -14,7 +14,7 @@ int main(void)
 		{
 			for (k = 0; k <= 9; k++)
 			{
-				for (l = 0; l <= 9; l++)
+				for (l = 1; l <= 9; l++)
 				{
 					putchar(x + i);
 					putchar(x + j);
@@ -23,11 +23,9 @@ int main(void)
 					putchar(x + l);
 					if (i != 9 || j != 8)
 					{
-						
         					putchar(44);
                                         	putchar(32);
 					}
-
 					
 				}
 			}
