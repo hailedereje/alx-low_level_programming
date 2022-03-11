@@ -18,18 +18,6 @@ int main(void)
 			{
 				putchar(32);
 			}
-			for (k = 0; k <=9; k++){
-				for (l = 0; l <=9; l++)
-				{
-					putchar(x + k);
-					putchar(x + l);
-					putchar(44);
-					
-				}
-			}
-			
-
-			
 		}
 	}
 	putchar(10);
