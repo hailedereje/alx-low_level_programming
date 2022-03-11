@@ -12,20 +12,20 @@ int main(void)
 	{
 		for (j = 0; j <= 8; j++)
 		{
-			putchar(x + i);
-			putchar(x + j);
-			if (i != 9 || j != 9)
-			{
-				putchar(32);
-			}
 			for (k = 0; k <= 9; k++){
 				for (l = 0; l <= 9; l++){
+					putchar(x + i);
+					putchar(x + j);
+					putchar(32);
 					putchar(x + k);
 					putchar(x + l);
-					putchar(44);
-					putchar(32);
+        				putchar(44);
+                                        putchar(32);
+
+					
 				}
 			}
+
 		}
 
 	}
