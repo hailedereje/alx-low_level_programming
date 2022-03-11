@@ -13,10 +13,9 @@ int main(void)
 		putchar(x + i);
 	}
 	for (i = 0; i <= 25; i++)
-        {
-                putchar(y + i);
-        }
-
+	{
+		putchar(y + i);
+	}
 	putchar(10);
 	return (0);
 }
