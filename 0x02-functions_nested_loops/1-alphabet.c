@@ -1,12 +1,13 @@
-#include <main.h>
 #include "main.h"
 /**
- * main - entery point
+ * print_alphabet - prints alphabet in lowercase
  *
- * Return: 1 if the condition meet else 0
- */
-int main()
+ **/
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
+		_putchar(c);
+	_putchar('\n');
 }
