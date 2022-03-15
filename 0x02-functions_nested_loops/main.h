@@ -1,5 +1,6 @@
-void _putchar(char *str)
+#include <stdio.h>
+void _putchar()
 {
-	printf("%s", str);
+	printf("_putchar");
 }
 
