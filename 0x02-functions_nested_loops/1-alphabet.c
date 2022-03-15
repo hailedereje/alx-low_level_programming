@@ -1,3 +1,4 @@
+#include <main.h>
 #include <stdio.h>
 /**
  * main - entery point
@@ -9,8 +10,8 @@ void print_alphabet(void)
 	int x = 97, i;
 	for (i = 0; i<=25; i++)
 	{
-		putchar(x + i);
-		putchar(10);
+		_putchar(x + i);
+		_putchar(10);
 	}
 }
 int main()
