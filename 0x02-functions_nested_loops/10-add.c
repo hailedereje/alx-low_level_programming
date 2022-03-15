@@ -4,7 +4,7 @@
  *
  * @n: takes integer
  * @v: takes integer
- * Return: a+b 
+ * Return: a+b
  */
 int add(int n, int v)
 {
