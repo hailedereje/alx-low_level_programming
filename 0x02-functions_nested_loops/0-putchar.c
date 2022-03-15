@@ -1,12 +1,13 @@
-#include <main.h>
+#include <stdio>
 #include "main.h"
 /**
  * main - entery point
  *
- * Return: 1 if the condition meet else 0
+ * Return: 0 always
  */
 int main()
 {
-	print_alphabet();
+	_putchar("_putchar");
 	return (0);
 }
+
