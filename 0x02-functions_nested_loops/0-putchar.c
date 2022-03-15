@@ -7,7 +7,7 @@
  */
 int main()
 {
-	_putchar("_putchar");
+	_putchar();
 	return (0);
 }
 
