@@ -4,9 +4,9 @@
  * @c: takes integer
  * Return: 1 else 0
  */
-int _isupper(int c)
+int _isupper(char c)
 {
-	if (c >= 'A' && c <= 'Z')
+	if (c >= 65 && c <= 97)
 	{
 		return (1);
 	}
