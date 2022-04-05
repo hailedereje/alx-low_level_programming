@@ -1,1 +1,1 @@
-hailendndndnndnndn`:wq
+this is alx functions and loops c code

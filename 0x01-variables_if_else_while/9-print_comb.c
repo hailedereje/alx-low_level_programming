@@ -1,22 +1,22 @@
 #include <stdio.h>
 /**
- * main - entery point
- *
- * Return: 0 after the function excute
+ *  main - Entery Point
+ *  Return: 0(Success)
  */
 int main(void)
 {
-	int i = 0, x = 48;
+	int a = 0;
 
-	for (i = 0; i <= 9; i++)
+	while (a < 10)
 	{
-		putchar(x + i);
-		if (i < 9)
+		putchar(48 + a);
+		if (a < 9)
 		{
-			putchar(44);
-			putchar(32);
+		putchar(44);
+		putchar(32);
 		}
+		a++;
 	}
-	putchar(10);
+	putchar('\n');
 	return (0);
 }

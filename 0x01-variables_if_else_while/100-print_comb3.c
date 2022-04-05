@@ -1,26 +1,34 @@
 #include <stdio.h>
 /**
- * main - entery point
- *
- * Return: 0 after the function excute
+ *  main - Entry Point
+ *  Return: 0(success)
  */
 int main(void)
 {
-	int i = 0, x = 48, j = 0;
+	int i, j;
 
-	for (i = 0; i <= 8; i++)
+	for (i = 0; i <= 9 ; i++)
 	{
-		for (j = i + 1; j <= 9; j++)
+		for (j = 1; j <= 9 ; j++)
 		{
-			putchar(x + i);
-			putchar(x + j);
-			if (i != 8 || j != 9)
+			if (i != j)
 			{
-				putchar(44);
-				putchar(32);
+				int k = i * 10 + j;
+				int l = j * 10 + i;
+
+				if (k < l)
+				{
+					putchar(i + 48);
+					putchar(j + 48);
+					if (k < 80 || l < 80)
+					{
+						putchar(44);
+						putchar(32);
+					}
+				}
 			}
 		}
 	}
-	putchar(10);
+	putchar('\n');
 	return (0);
 }

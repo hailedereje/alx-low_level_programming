@@ -1,17 +1,17 @@
 #include <stdio.h>
 /**
- * main - entery point
- *
- * Return: 0 after the function excute
+ *  main - Entery Point
+ *  Return: 0(Success)
  */
 int main(void)
 {
-	int i;
+	int a = 0;
 
-	for (i = 0; i <= 9; i++)
+	while (a < 10)
 	{
-		printf("%d", i);
+		printf("%d", a);
+		a++;
 	}
-	putchar(10);
+	printf("\n");
 	return (0);
 }

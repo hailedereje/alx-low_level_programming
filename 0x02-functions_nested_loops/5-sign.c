@@ -1,8 +1,9 @@
 #include "main.h"
+
 /**
- * print_sign - prints 1 if n>0, and prints 0 if it is equal to 0, or -1
- * @n: takes in integer
- * Return: 1 if > 0 , 0 if = 0, or -1 if < 0
+ *  print_sign - Entry Point
+ *  @n : character to check
+ *  Return:0 or 1
  */
 int print_sign(int n)
 {
@@ -22,4 +23,3 @@ int print_sign(int n)
 		return (-1);
 	}
 }
-

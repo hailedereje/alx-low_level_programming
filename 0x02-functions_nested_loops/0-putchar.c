@@ -1,21 +1,18 @@
-#include <stdio.h>
 #include "main.h"
 /**
- * main - entery point
- *
- * Return: 0 always
+ *  main - Entry Point
+ *  Return:0(Successful)
  */
 int main(void)
 {
-	char ermias[] = "_putchar";
+	char letter[] = "_putchar";
+	int i = 0;
 
-	int c;
-
-	for (c = 0; c < 8; c++)
+	while (i < 8)
 	{
-		_putchar(ermias[c]);
+		_putchar(letter[i]);
+		i++;
 	}
 	_putchar('\n');
 	return (0);
 }
-

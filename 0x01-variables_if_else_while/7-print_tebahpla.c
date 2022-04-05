@@ -1,17 +1,17 @@
 #include <stdio.h>
 /**
- * main - entery point
- *
- * Return: 0 after the function excute
+ * main - Entry Point
+ * Return: 0(Success)
  */
 int main(void)
 {
-	int i, x = 97;
+	char alpha = 'z';
 
-	for (i = 25; i >= 0; i--)
+	while (alpha >= 'a')
 	{
-		putchar(x + i);
+		putchar(alpha);
+		alpha--;
 	}
-	putchar(10);
+	putchar('\n');
 	return (0);
 }

@@ -1,1 +1,1 @@
-C - More functions, more nested loops
+more functions and loops in c

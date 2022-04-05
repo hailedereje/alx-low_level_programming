@@ -1,8 +1,9 @@
+#include "main.h"
 /**
- * mul - multiplier
- * @a: int to mult
- * @b: int to mult
- * Return: result of two
+ * mul - Entry Poin
+ * @a : first digit
+ * @b : second digit
+ * Return:a * b
  */
 int mul(int a, int b)
 {

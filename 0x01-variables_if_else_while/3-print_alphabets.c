@@ -1,21 +1,24 @@
 #include <stdio.h>
 /**
- * main - entery point
- *
- * Return: 0 after the function excute
+ * main - Entry Point
+ * Return: 0(Success)
  */
 int main(void)
 {
-	int i, x = 97, y = 65;
+	char alpha, capAlpha;
 
-	for (i = 0; i <= 25; i++)
+	alpha = 'a';
+	capAlpha = 'A';
+	while (alpha <= 'z')
 	{
-		putchar(x + i);
+		putchar(alpha);
+		alpha++;
 	}
-	for (i = 0; i <= 25; i++)
+	while (capAlpha <= 'Z')
 	{
-		putchar(y + i);
+		putchar(capAlpha);
+		capAlpha++;
 	}
-	putchar(10);
+	putchar('\n');
 	return (0);
 }

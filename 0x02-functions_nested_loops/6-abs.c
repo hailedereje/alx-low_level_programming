@@ -1,23 +1,19 @@
 #include "main.h"
-/**
- * _abs - return absolut value of n
- * @n : integer
- * Return: the +ve or 0
- */
-int _abs(int n)
-{
-	if (n > 0)
-	{
-		return (n);
-	}
 
-	else if (n == 0)
+/**
+ *  _abs - Entry Point
+ *  @a : character to check
+ *  Return:0
+ */
+int _abs(int a)
+{
+	int result;
+
+	if (a < 0)
 	{
-		return (0);
+		result = a * -1;
+		return (result);
 	}
 	else
-	{
-		return (-1 * n);
-	}
+		return (a);
 }
-

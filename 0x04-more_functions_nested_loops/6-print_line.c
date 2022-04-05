@@ -1,16 +1,15 @@
 #include "main.h"
 /**
- * print_line - prints a line
- *
- * @n: integer
+ * print_line - Entry Point
+ * @n : number of times the character to be printed
+ * Return:dash character
  */
 void print_line(int n)
 {
-	int i;
-
-	for (i = 0; i < n; i++)
+	while (n > 0)
 	{
 		_putchar('_');
+		n--;
 	}
 	_putchar('\n');
 }

@@ -1,23 +1,20 @@
 #include <stdio.h>
 /**
- * main - entery point
- *
- * Return: 0 after the function excute
+ * main - Entry Point
+ * Return: 0(Success)
  */
 int main(void)
 {
-	int i, m, x = 97;
-	char z;
+	char alpha;
 
-	for (i = 0; i <= 25; i++)
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
-		m = x + i;
-		z = (char)m;
-		if (z != 'q' && z != 'e')
+		if (alpha == 'q' || alpha == 'e')
 		{
-			putchar(z);
+			continue;
 		}
+	putchar(alpha);
 	}
-	putchar(10);
+	putchar('\n');
 	return (0);
 }

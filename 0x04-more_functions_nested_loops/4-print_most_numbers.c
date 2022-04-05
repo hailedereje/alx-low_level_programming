@@ -1,19 +1,19 @@
 #include "main.h"
-
 /**
- * print_most_numbers - prints the numbers
- *
+ * print_most_numbers - Entry Point
+ * Return:numbers
  */
 void print_most_numbers(void)
 {
-	int i;
+	int n = 0;
 
-	for (i = '0'; i <= '9'; i++)
+	while (n <= 9)
 	{
-		if (i != '2' &&  i != '4')
+		if (n != 2 && n != 4)
 		{
-			_putchar(i);
+			_putchar('0' + n);
 		}
+		n++;
 	}
 	_putchar('\n');
 }

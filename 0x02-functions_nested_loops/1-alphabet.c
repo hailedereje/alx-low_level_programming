@@ -1,13 +1,18 @@
 #include "main.h"
+
 /**
- * print_alphabet - prints alphabet in lowercase
+ * print_alphabet - Entery point
+ * Return:0
  *
- **/
+ */
 void print_alphabet(void)
 {
-	char c;
+	    int alp = 0;
 
-	for (c = 'a'; c <= 'z'; c++)
-		_putchar(c);
+	while (alp < 26)
+	{
+		_putchar(alp + 97);
+		alp++;
+	}
 	_putchar('\n');
 }
